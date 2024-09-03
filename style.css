@@ -6,7 +6,9 @@
 }
 
 body{
-    background: linear-gradient(-120deg, #481875, #11031f);
+    background: linear-gradient(-120deg, #481875, #11031f)  no-repeat, center/cover;
+    width: 100%;
+    height: 100vh;
     color: white;
     font-family: bebas neue;
     text-align: center;
