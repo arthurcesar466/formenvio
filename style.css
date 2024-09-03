@@ -1,0 +1,31 @@
+:after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(-120deg, #481875, #11031f);
+    color: white;
+    font-family: bebas neue;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.botao {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 40px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #4e5052;
+}
